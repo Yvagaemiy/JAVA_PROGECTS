@@ -18,7 +18,7 @@ public class hw_005 {
     
       iScanner.close();
 
-      int res = calculecoin(znak, num_a, num_b);
+      double res = calculecoin(znak, num_a, num_b);
 
       System.out.printf("%d %s %d = %d", num_a,znak, num_b, res);  
     }
@@ -44,22 +44,6 @@ public class hw_005 {
                 break;
         } 
         return res;
-//         if oper == "+"){
-//            res = (a + b) ;
-               
-//         }
-//         if (oper =="-"){
-//            res = (a - b);
-           
-//         }
-//         if (oper =="*"){
-//             res = (a * b);
-           
-//         }
-//         if (oper =="/"){
-//             res = (a / b);
-           
-//         }
-//     return (res);
+
     }
 }
