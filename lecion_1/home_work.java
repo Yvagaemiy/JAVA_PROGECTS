@@ -1,6 +1,6 @@
+package lecion_1;
 
-
-
+import java.util.Scanner;
 // Задачи для демонстрации
 // 1.
 // Задана натуральная степень k. Сформировать случайным
@@ -12,9 +12,9 @@
 // многочлена. Сформировать файл содержащий сумму
 // многочленов.
 
-import java.util.Scanner;
-package lecion_1;
-public class Home_Work {
+
+
+public class HOME_WORK{
     public static void main(String[] args) {
         Scanner iScanner = new Scanner (System.in);
         System.out.println("ВВедите степень к:");
